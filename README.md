@@ -25,3 +25,6 @@ Para correr el programa hay que seguir estas instrucciones:
 
     Finalmente, si se quiere ver el paso a paso de la ejecucipon ejecutar el siguiente comando:
     npx playwright test ps4Test.spec.js --project="nombre del explorador" --headed --debug
+
+4. Para generar el reporte correspondiente con las imágemes del paso a paso de la prueba de automatización, al finalizar la ejecución escribir el siguiente comando:
+    npx playwright show-report
